@@ -29,13 +29,13 @@ jobs:
           sudo apt-get install -y jq curl
           npm install axios
 
-      # 3️⃣ JSON 处理：生成 jingjian.json
+      # 3️⃣ JSON 处理：生成 adult.json
       - name: Generate jingjian.json
-        run: jq '.' KVideo-config.json > jingjian.json
+        run: jq '.' KVideo-config.json > adult.json
 
-      # 4️⃣ JSON 处理：生成 jin18.json (过滤成人)
-      - name: Generate jin18.json
-        run: jq 'map(select(.group != "adult"))' KVideo-config.json > jin18.json
+      # 4️⃣ JSON 处理：生成 lite.json (过滤成人)
+      - name: Generate lite.json
+        run: jq 'map(select(.group != "adult"))' KVideo-config.json > lite.json
 
       # 5️⃣ 运行 API 检查脚本
       - name: Run API check
@@ -50,7 +50,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # 只添加 JSON 和 Markdown 报告
-          git add jingjian.json jin18.json report.md
+          git add adult.json lite.json report.md
           
-          git commit -m "🤖 自动更新: 接口检测报告 ($(date +'%Y-%m-%d %H:%M'))" || echo "没有文件变化"
+          git commit -m "自动更新: 接口检测报告 ($(date +'%Y-%m-%d %H:%M'))" || echo "没有文件变化"
           git push
