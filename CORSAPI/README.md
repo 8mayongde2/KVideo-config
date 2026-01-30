@@ -2,9 +2,9 @@
 
 基于 Cloudflare Workers 的通用 API 中转代理服务，用于加速和转发 API 请求。
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SzeMeng76/CORSAPI)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/puppet680/KVideo-config)
 
-> **Credit**: 本项目二开自 [hafrey1/LunaTV-config](https://github.com/hafrey1/LunaTV-config)
+> **Credit**: 本项目fork自 [SzeMeng76/CORSAPI](https://github.com/SzeMeng76/CORSAPI/)
 
 ---
 
