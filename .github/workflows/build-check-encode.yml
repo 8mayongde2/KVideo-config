@@ -2,10 +2,11 @@ name: JSON Build & API Check
 
 on:
   schedule:
-    - cron: "0 17 * * *"  # 北京时间凌晨1点运行
+    - cron: "0 17 * * *"  # 每天北京时间凌晨 1 点运行
   push:
     paths:
       - 'KVideo-config.json'
+      - 'check_api.js'
   workflow_dispatch:
     inputs:
       api_name:
@@ -19,38 +20,34 @@ jobs:
       contents: write
 
     steps:
-      # 1️⃣ 检出仓库
-      - uses: actions/checkout@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-      # 2️⃣ 安装系统依赖
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl
-          npm install axios
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
 
-      # 3️⃣ JSON 处理：生成 adult.json
-      - name: Generate jingjian.json
-        run: jq '.' KVideo-config.json > adult.json
+      - name: 安装必备依赖
+        run: npm install axios
 
-      # 4️⃣ JSON 处理：生成 lite.json (过滤成人)
-      - name: Generate lite.json
-        run: jq 'map(select(.group != "adult"))' KVideo-config.json > lite.json
-
-      # 5️⃣ 运行 API 检查脚本
-      - name: Run API check
+      - name: 执行自动化检测
         run: |
           SEARCH_KEY="${{ github.event.inputs.api_name || '斗罗大陆' }}"
           node check_api.js "$SEARCH_KEY"
 
-      # 6️⃣ 提交并推送生成的 JSON 和 报告
-      - name: Commit and push changes
+      - name: 提交并同步结果
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 只添加 JSON 和 Markdown 报告
           git add adult.json lite.json report.md
           
-          git commit -m "自动更新: 接口检测报告 ($(date +'%Y-%m-%d %H:%M'))" || echo "没有文件变化"
-          git push
+          # 仅在文件确实有变化时才提交
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交。"
+          else
+            git commit -m "chore: 自动化更新 API 状态 [$(date +'%Y-%m-%d %H:%M')]"
+            git push
+          fi
