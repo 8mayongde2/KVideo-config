@@ -99,7 +99,7 @@ async function testSource(item) {
     })).sort((a, b) => a.priority - b.priority);
     
     fs.writeFileSync(ADULT_JSON_PATH, JSON.stringify(adultData, null, 2));
-    fs.writeFileSync(LITE_JSON_PATH, JSON.stringify(adultData.filter(s => s.group !== "adult" && s.enabled), null, 2));
+    fs.writeFileSync(LITE_JSON_PATH, JSON.stringify(adultData.filter(s => s.group !== "premium" && s.enabled), null, 2));
 
     // --- 生成 report.md ---
     const nowCST = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().replace("T", " ").slice(0, 16) + " CST";
