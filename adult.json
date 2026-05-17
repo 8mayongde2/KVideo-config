@@ -296,14 +296,6 @@
     "priority": 5
   },
   {
-    "id": "uku",
-    "name": "🎬U酷影视",
-    "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "madou",
     "name": "🔞麻豆视频",
     "baseUrl": "https://91md.me/api.php/provide/vod",
@@ -315,6 +307,14 @@
     "id": "alvin",
     "name": "🔞--AIvin-",
     "baseUrl": "http://lbapiby.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "lebo",
+    "name": "🔞乐播资源",
+    "baseUrl": "https://lbapi9.com/api.php/provide/vod",
     "group": "premium",
     "enabled": true,
     "priority": 5
@@ -376,10 +376,10 @@
     "priority": 10
   },
   {
-    "id": "lebo",
-    "name": "🔞乐播资源",
-    "baseUrl": "https://lbapi9.com/api.php/provide/vod",
-    "group": "premium",
+    "id": "uku",
+    "name": "🎬U酷影视",
+    "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
+    "group": "normal",
     "enabled": false,
     "priority": 101,
     "_comment": "超时/宕机"
@@ -390,7 +390,7 @@
     "baseUrl": "https://wolongzyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 102,
+    "priority": 103,
     "_comment": "超时/宕机"
   },
   {
