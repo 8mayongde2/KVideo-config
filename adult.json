@@ -328,6 +328,14 @@
     "priority": 5
   },
   {
+    "id": "baiwan",
+    "name": "🔞百万资源",
+    "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "jingpin",
     "name": "🔞精品资源",
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
@@ -373,17 +381,8 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 101,
+    "priority": 102,
     "_comment": "接口解析错误"
-  },
-  {
-    "id": "baiwan",
-    "name": "🔞百万资源",
-    "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": false,
-    "priority": 101,
-    "_comment": "超时/宕机"
   },
   {
     "id": "wolong",
@@ -391,7 +390,7 @@
     "baseUrl": "https://wolongzyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "超时/宕机"
   },
   {
