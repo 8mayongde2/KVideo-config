@@ -1,5 +1,13 @@
 [
   {
+    "id": "iqiyi",
+    "name": "🎬-爱奇艺-",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "dytt",
     "name": "🎬电影天堂",
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -232,17 +240,17 @@
     "priority": 1
   },
   {
-    "id": "iqiyi",
-    "name": "🎬-爱奇艺-",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "id": "ikun",
+    "name": "🎬iKun资源",
+    "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 5
   },
   {
-    "id": "ikun",
-    "name": "🎬iKun资源",
-    "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
+    "id": "xinlang",
+    "name": "🎬新浪资源",
+    "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 5
@@ -296,14 +304,6 @@
     "priority": 5
   },
   {
-    "id": "xinlang",
-    "name": "🎬新浪资源",
-    "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "uku",
     "name": "🎬U酷影视",
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
@@ -325,7 +325,7 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 101,
+    "priority": 102,
     "_comment": "超时/宕机"
   },
   {
@@ -334,8 +334,8 @@
     "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 109,
-    "_comment": "超时/宕机"
+    "priority": 110,
+    "_comment": "接口解析错误"
   },
   {
     "id": "maotai",
@@ -343,8 +343,8 @@
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 115,
-    "_comment": "超时/宕机"
+    "priority": 116,
+    "_comment": "接口解析错误"
   },
   {
     "id": "senlin",
@@ -352,7 +352,7 @@
     "baseUrl": "https://beiyong.slapibf.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 120,
+    "priority": 121,
     "_comment": "接口解析错误"
   },
   {
@@ -361,17 +361,8 @@
     "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 122,
+    "priority": 123,
     "_comment": "接口解析错误"
-  },
-  {
-    "id": "jinying",
-    "name": "🎬金鹰点播",
-    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": false,
-    "priority": 129,
-    "_comment": "超时/宕机"
   },
   {
     "id": "wolong",
@@ -390,6 +381,15 @@
     "enabled": false,
     "priority": 130,
     "_comment": "接口解析错误"
+  },
+  {
+    "id": "jinying",
+    "name": "🎬金鹰点播",
+    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 130,
+    "_comment": "超时/宕机"
   },
   {
     "id": "bdzy",

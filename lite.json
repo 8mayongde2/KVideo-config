@@ -1,5 +1,13 @@
 [
   {
+    "id": "iqiyi",
+    "name": "🎬-爱奇艺-",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "dytt",
     "name": "🎬电影天堂",
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -128,14 +136,6 @@
     "priority": 1
   },
   {
-    "id": "iqiyi",
-    "name": "🎬-爱奇艺-",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "ikun",
     "name": "🎬iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
@@ -149,7 +149,7 @@
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 5
   },
   {
     "id": "uku",
