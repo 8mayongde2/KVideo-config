@@ -88,14 +88,6 @@
     "priority": 1
   },
   {
-    "id": "piaoling",
-    "name": "🎬飘零资源",
-    "baseUrl": "https://p2100.net/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "guangsu",
     "name": "🎬光速资源",
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -256,14 +248,6 @@
     "priority": 5
   },
   {
-    "id": "hsck",
-    "name": "🔞黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "lebo",
     "name": "🔞乐播资源",
     "baseUrl": "https://lbapi9.com/api.php/provide/vod",
@@ -304,6 +288,14 @@
     "priority": 5
   },
   {
+    "id": "jisu",
+    "name": "🎬极速资源",
+    "baseUrl": "https://jszyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "uku",
     "name": "🎬U酷影视",
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
@@ -320,13 +312,22 @@
     "priority": 10
   },
   {
-    "id": "jisu",
-    "name": "🎬极速资源",
-    "baseUrl": "https://jszyapi.com/api.php/provide/vod",
+    "id": "piaoling",
+    "name": "🎬飘零资源",
+    "baseUrl": "https://p2100.net/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
     "priority": 101,
-    "_comment": "接口解析错误"
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "hsck",
+    "name": "🔞黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
   },
   {
     "id": "dbzy",
@@ -334,7 +335,7 @@
     "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 115,
+    "priority": 116,
     "_comment": "接口解析错误"
   },
   {
@@ -343,7 +344,7 @@
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 121,
+    "priority": 122,
     "_comment": "接口解析错误"
   },
   {
@@ -352,7 +353,7 @@
     "baseUrl": "https://beiyong.slapibf.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 126,
+    "priority": 127,
     "_comment": "接口解析错误"
   },
   {
@@ -361,7 +362,7 @@
     "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 128,
+    "priority": 129,
     "_comment": "接口解析错误"
   },
   {
