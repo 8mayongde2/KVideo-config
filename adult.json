@@ -316,9 +316,8 @@
     "name": "🎬U酷影视",
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
     "group": "normal",
-    "enabled": false,
-    "priority": 101,
-    "_comment": "超时/宕机"
+    "enabled": true,
+    "priority": 10
   },
   {
     "id": "piaoling",
@@ -326,7 +325,7 @@
     "baseUrl": "https://p2100.net/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 104,
+    "priority": 105,
     "_comment": "超时/宕机"
   },
   {
@@ -335,7 +334,7 @@
     "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 119,
+    "priority": 120,
     "_comment": "接口解析错误"
   },
   {
@@ -344,7 +343,7 @@
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 125,
+    "priority": 126,
     "_comment": "接口解析错误"
   },
   {
