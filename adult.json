@@ -192,6 +192,14 @@
     "priority": 1
   },
   {
+    "id": "lajiao",
+    "name": "🔞辣椒资源",
+    "baseUrl": "https://apilj.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "doudou",
     "name": "🔞豆豆资源",
     "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
@@ -251,14 +259,6 @@
     "id": "naixiang",
     "name": "🔞奶香资源",
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "lajiao",
-    "name": "🔞辣椒资源",
-    "baseUrl": "https://apilj.com/api.php/provide/vod",
     "group": "premium",
     "enabled": true,
     "priority": 5
@@ -325,7 +325,7 @@
     "baseUrl": "https://p2100.net/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 115,
+    "priority": 116,
     "_comment": "超时/宕机"
   },
   {
