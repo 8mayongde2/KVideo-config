@@ -176,14 +176,6 @@
     "priority": 1
   },
   {
-    "id": "xiaoji",
-    "name": "🔞小鸡资源",
-    "baseUrl": "https://api.xiaojizy.live/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "jkun",
     "name": "🔞jkun资源",
     "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
@@ -219,6 +211,22 @@
     "id": "heiliao",
     "name": "🔞黑料资源",
     "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "taohua",
+    "name": "🔞桃花资源",
+    "baseUrl": "https://thzy1.me/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
+    "id": "jingpin",
+    "name": "🔞精品资源",
+    "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
     "group": "premium",
     "enabled": true,
     "priority": 1
@@ -280,22 +288,6 @@
     "priority": 5
   },
   {
-    "id": "taohua",
-    "name": "🔞桃花资源",
-    "baseUrl": "https://thzy1.me/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
-    "id": "jingpin",
-    "name": "🔞精品资源",
-    "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "xinlang",
     "name": "🎬新浪资源",
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -320,12 +312,21 @@
     "priority": 10
   },
   {
+    "id": "xiaoji",
+    "name": "🔞小鸡资源",
+    "baseUrl": "https://api.xiaojizy.live/provide/vod",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
     "id": "piaoling",
     "name": "🎬飘零资源",
     "baseUrl": "https://p2100.net/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 128,
+    "priority": 129,
     "_comment": "超时/宕机"
   },
   {
