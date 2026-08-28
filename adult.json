@@ -176,14 +176,6 @@
     "priority": 10
   },
   {
-    "id": "alvin",
-    "name": "🔞--AIvin-",
-    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "155zy",
     "name": "🔞155-资源",
     "baseUrl": "https://155api.com/api.php/provide/vod",
@@ -334,6 +326,15 @@
     "group": "premium",
     "enabled": true,
     "priority": 10
+  },
+  {
+    "id": "alvin",
+    "name": "🔞--AIvin-",
+    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
   },
   {
     "id": "dbzy",
