@@ -216,6 +216,14 @@
     "priority": 1
   },
   {
+    "id": "hsck",
+    "name": "🔞黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "jkun",
     "name": "🔞jkun资源",
     "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
@@ -304,9 +312,9 @@
     "priority": 1
   },
   {
-    "id": "hsck",
-    "name": "🔞黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "id": "souav",
+    "name": "🔞souavZY",
+    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
     "group": "premium",
     "enabled": true,
     "priority": 5
@@ -316,18 +324,8 @@
     "name": "🔞鲨鱼资源",
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
     "group": "premium",
-    "enabled": false,
-    "priority": 101,
-    "_comment": "超时/宕机"
-  },
-  {
-    "id": "souav",
-    "name": "🔞souavZY",
-    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
-    "group": "premium",
-    "enabled": false,
-    "priority": 102,
-    "_comment": "超时/宕机"
+    "enabled": true,
+    "priority": 10
   },
   {
     "id": "piaoling",
@@ -335,7 +333,7 @@
     "baseUrl": "https://p2100.net/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 110,
+    "priority": 111,
     "_comment": "超时/宕机"
   },
   {
